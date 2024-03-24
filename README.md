@@ -32,5 +32,8 @@ make list-defconfigs
 # load config and build
 make raspberrypi3_rt_defconfig
 make
- 
 ```
+
+## Reference
+
+Read more about [Buildroot basics](https://www.stefanocottafavi.com/buildroot_basics/) and how to [build a realtime Linux kernel](https://www.stefanocottafavi.com/buildroot_rpi_kernel_rt/) with it.
