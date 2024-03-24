@@ -1,0 +1,11 @@
+{
+    "name": "test_pipeline_1",
+    "_enabled": "true",
+    "stages": [
+      { 
+        "name": "gray", 
+        "op": "convertColor", 
+        "args": [{"space" : "BGR2Gray"}] 
+      }
+    ]
+}

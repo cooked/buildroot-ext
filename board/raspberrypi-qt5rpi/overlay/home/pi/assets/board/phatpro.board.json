@@ -1,0 +1,6289 @@
+{
+  "openpnp-board": {
+    "-version": "1.1",
+    "-name": "printHAT_pro.board.xml",
+    "dimensions": {
+      "-units": "Millimeters",
+      "-x": "145.0",
+      "-y": "85.0",
+      "-z": "0.0",
+      "-rotation": "0.0"
+    },
+    "placements": {
+      "placement": [
+        {
+          "-version": "1.4",
+          "-id": "C1",
+          "-side": "Top",
+          "-part-id": "C_1206_3216Metric-10u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "117.6528",
+            "-y": "16.7005",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C2",
+          "-side": "Top",
+          "-part-id": "C_1206_3216Metric-10u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.65",
+            "-y": "25.0952",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C3",
+          "-side": "Top",
+          "-part-id": "C_1206_3216Metric-10u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.65",
+            "-y": "22.8092",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C4",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-10n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "121.2088",
+            "-y": "27.2288",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C5",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "129.159",
+            "-y": "30.9626",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C6",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.7n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "117.602",
+            "-y": "34.29",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C7",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.6581",
+            "-y": "25.052",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C8",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.6632",
+            "-y": "23.5534",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C9",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-1u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.982",
+            "-y": "39.4335",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C10",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-1u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.03",
+            "-y": "36.7665",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C11",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "114.935",
+            "-y": "37.0205",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C12",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "22.0726",
+            "-y": "9.4234",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C13",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "28.6766",
+            "-y": "9.4234",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C14",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "19.812",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C15",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "12.446",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C16",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "25.3746",
+            "-y": "9.4234",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C17",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "31.9786",
+            "-y": "9.4234",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C18",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "19.177",
+            "-y": "47.7139",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C19",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "35.941",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C20",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.6632",
+            "-y": "22.0726",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C21",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "11.684",
+            "-y": "43.3197",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C22",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "9.017",
+            "-y": "74.295",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C24",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "31.5214",
+            "-y": "56.6928",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C25",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-20p",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "32.8676",
+            "-y": "47.9425",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C26",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-20p",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "25.654",
+            "-y": "47.8282",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C27",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "18.3896",
+            "-y": "29.7053",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C28",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "34.8996",
+            "-y": "26.3017",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C29",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "18.3896",
+            "-y": "41.6433",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C30",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-4.7u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "37.6936",
+            "-y": "42.4815",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C31",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-10n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "23.1902",
+            "-y": "45.8343",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C32",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-1u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "23.0124",
+            "-y": "47.6377",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C33",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.3677",
+            "-y": "52.2605",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C34",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.5582",
+            "-y": "55.5625",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C35",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "44.4627",
+            "-y": "52.451",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C36",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "60.8457",
+            "-y": "49.4665",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C37",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.1876",
+            "-y": "44.6151",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C38",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "59.1947",
+            "-y": "55.626",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C39",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "59.1312",
+            "-y": "51.1175",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C40",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.3677",
+            "-y": "49.276",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C41",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "60.8457",
+            "-y": "52.5145",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C42",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "59.69",
+            "-y": "74.1426",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C43",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "55.245",
+            "-y": "74.1426",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C44",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "50.1904",
+            "-y": "74.0791",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C45",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.0469",
+            "-y": "74.1426",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C46",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "52.8574",
+            "-y": "75.0316",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C47",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "47.5234",
+            "-y": "75.0316",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C48",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.3677",
+            "-y": "46.228",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C49",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "62.4332",
+            "-y": "63.2968",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C50",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "55.245",
+            "-y": "75.819",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C51",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "59.69",
+            "-y": "75.946",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C52",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.0469",
+            "-y": "75.8571",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C53",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "50.2539",
+            "-y": "75.9206",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C54",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.6775",
+            "-y": "52.4819",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C55",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.868",
+            "-y": "55.7839",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C56",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "68.7725",
+            "-y": "52.6724",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C57",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "85.1555",
+            "-y": "49.6879",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C58",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "77.472",
+            "-y": "45.3263",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C59",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.5045",
+            "-y": "55.8474",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C60",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.441",
+            "-y": "51.3389",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C61",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.6775",
+            "-y": "49.4974",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C62",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "85.1555",
+            "-y": "52.7359",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C63",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.8982",
+            "-y": "74.364",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C64",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "79.5548",
+            "-y": "74.364",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C65",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "74.5002",
+            "-y": "74.3005",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C66",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.5345",
+            "-y": "74.364",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C67",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "77.1672",
+            "-y": "75.253",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C68",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "71.8332",
+            "-y": "75.253",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C69",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.3804",
+            "-y": "62.9285",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C70",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "86.6648",
+            "-y": "63.5",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C71",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "79.5548",
+            "-y": "76.0404",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C72",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.8982",
+            "-y": "76.1674",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C73",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.5345",
+            "-y": "76.0785",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C74",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "74.5637",
+            "-y": "76.142",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C75",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.8433",
+            "-y": "52.2625",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C76",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "95.0338",
+            "-y": "55.5645",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C77",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "92.9383",
+            "-y": "52.453",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C78",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.3213",
+            "-y": "49.4685",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C79",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "101.981",
+            "-y": "45.0977",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C80",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "107.6703",
+            "-y": "55.628",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C81",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "107.6068",
+            "-y": "51.1195",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C82",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.8433",
+            "-y": "49.278",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C83",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.3213",
+            "-y": "52.5165",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C84",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "108.0386",
+            "-y": "74.1446",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C85",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.7206",
+            "-y": "74.1446",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C86",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.666",
+            "-y": "74.0811",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C87",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.6241",
+            "-y": "74.1446",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C88",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "101.333",
+            "-y": "75.0336",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C89",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "95.999",
+            "-y": "75.0336",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C90",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.6775",
+            "-y": "46.4494",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C91",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "110.9218",
+            "-y": "63.2968",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C92",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.7206",
+            "-y": "75.821",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C93",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "108.0386",
+            "-y": "75.948",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C94",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.6241",
+            "-y": "75.8591",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C95",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.7295",
+            "-y": "75.9226",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C96",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.1873",
+            "-y": "32.5065",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C97",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "52.9968",
+            "-y": "29.2045",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C98",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "55.0923",
+            "-y": "32.316",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C99",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "38.7093",
+            "-y": "35.3005",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C100",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.2026",
+            "-y": "39.5732",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C101",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "39.4335",
+            "-y": "29.972",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C102",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "40.4238",
+            "-y": "33.6495",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C103",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.1873",
+            "-y": "35.491",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C104",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "38.7093",
+            "-y": "32.2525",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C105",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "44.1322",
+            "-y": "10.3958",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C106",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "48.5772",
+            "-y": "10.3958",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C107",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.6318",
+            "-y": "10.4593",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C108",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "58.7753",
+            "-y": "10.3958",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C109",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "50.9648",
+            "-y": "9.6266",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C110",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "56.2988",
+            "-y": "9.652",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C111",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.6902",
+            "-y": "63.1499",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C112",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "61.976",
+            "-y": "22.0726",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C113",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "48.5772",
+            "-y": "8.8138",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C114",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "44.1322",
+            "-y": "8.8138",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C115",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "58.7753",
+            "-y": "8.8392",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C116",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.6194",
+            "-y": "8.8646",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C117",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.5114",
+            "-y": "32.7025",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C118",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.3209",
+            "-y": "29.4005",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C119",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "80.4164",
+            "-y": "32.512",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C120",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "64.0334",
+            "-y": "35.4965",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C121",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "71.1454",
+            "-y": "40.1828",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C122",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "64.7576",
+            "-y": "30.168",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C123",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "65.7479",
+            "-y": "33.8455",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C124",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.5114",
+            "-y": "35.687",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C125",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "64.0334",
+            "-y": "32.4485",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C126",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.4563",
+            "-y": "10.5918",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C127",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "73.9013",
+            "-y": "10.5918",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C128",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.9559",
+            "-y": "10.6553",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C129",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.9216",
+            "-y": "10.5918",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C130",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "76.2889",
+            "-y": "9.7028",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C131",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "81.6229",
+            "-y": "9.7028",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C132",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.8433",
+            "-y": "46.23",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C133",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "86.9442",
+            "-y": "22.2758",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C134",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "73.9013",
+            "-y": "8.9154",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C135",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.4436",
+            "-y": "8.89",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C136",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.9216",
+            "-y": "8.8773",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C137",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.8924",
+            "-y": "8.8138",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C138",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.6033",
+            "-y": "32.8041",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C139",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.4128",
+            "-y": "29.5021",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C140",
+          "-side": "Top",
+          "-part-id": "C_0805_2012Metric-2.2u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "104.5083",
+            "-y": "32.6136",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C141",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "88.1253",
+            "-y": "35.5981",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C142",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "95.644",
+            "-y": "39.6041",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C143",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "88.8495",
+            "-y": "30.2696",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C144",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-22n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "89.8398",
+            "-y": "33.9471",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C145",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.6033",
+            "-y": "35.7886",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C146",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "88.1253",
+            "-y": "32.5501",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C147",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.5482",
+            "-y": "10.6934",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C148",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "97.9932",
+            "-y": "10.6934",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C149",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.0478",
+            "-y": "10.7569",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C150",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-220n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "108.1913",
+            "-y": "10.6934",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C151",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "100.3808",
+            "-y": "9.8044",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C152",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-470n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "105.7148",
+            "-y": "9.8044",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C153",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.856",
+            "-y": "62.9305",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C154",
+          "-side": "Top",
+          "-part-id": "CP_Elec_8x10.5-330u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "111.392",
+            "-y": "22.3702",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C155",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "97.9932",
+            "-y": "9.017",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C156",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.5482",
+            "-y": "8.89",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C157",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "108.1913",
+            "-y": "8.9789",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C158",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-1n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.9843",
+            "-y": "8.9154",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C159",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "52.2605",
+            "-y": "37.846",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C160",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.1746",
+            "-y": "21.4575",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C161",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "77.5846",
+            "-y": "38.042",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C162",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.4987",
+            "-y": "21.6535",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C163",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-2.2n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "101.6765",
+            "-y": "38.1436",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C164",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.5906",
+            "-y": "21.7551",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C165",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "54.3179",
+            "-y": "62.992",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C166",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.6277",
+            "-y": "63.2134",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C167",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.7935",
+            "-y": "62.994",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C168",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.2371",
+            "-y": "21.394",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C169",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.5612",
+            "-y": "21.59",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C170",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.6531",
+            "-y": "21.6916",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "C171",
+          "-side": "Top",
+          "-part-id": "C_0603_1608Metric-100n",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "34.7472",
+            "-y": "47.7901",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D1",
+          "-side": "Top",
+          "-part-id": "D_SMB-SMBJ26A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "132.715",
+            "-y": "15.748",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D2",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "118.618",
+            "-y": "11.7475",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D3",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.03",
+            "-y": "46.736",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D4",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.538",
+            "-y": "53.848",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D5",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.538",
+            "-y": "55.626",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D6",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.03",
+            "-y": "48.514",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D7",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "83.82",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D8",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "130.048",
+            "-y": "82.6135",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D9",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.332",
+            "-y": "46.736",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D10",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.586",
+            "-y": "53.848",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D11",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.332",
+            "-y": "48.514",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D12",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.586",
+            "-y": "55.626",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D13",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "70.358",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D14",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "130.048",
+            "-y": "71.5645",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D15",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "119.888",
+            "-y": "53.848",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D16",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-3.3V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "119.888",
+            "-y": "46.736",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D17",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "119.888",
+            "-y": "55.626",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D18",
+          "-side": "Top",
+          "-part-id": "D_SOD-323-10V",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "119.888",
+            "-y": "48.514",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D19",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "130.048",
+            "-y": "60.452",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D20",
+          "-side": "Top",
+          "-part-id": "LED_0805_2012Metric-LED",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "130.048",
+            "-y": "49.3395",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "D21",
+          "-side": "Top",
+          "-part-id": "D_SMB-B230",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "40.1574",
+            "-y": "75.1332",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F2",
+          "-side": "Top",
+          "-part-id": "Fuse_1206_3216Metric-Fuse_10A",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "133.731",
+            "-y": "82.7405",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F3",
+          "-side": "Top",
+          "-part-id": "Fuse_0603_1608Metric-Fuse_1A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "78.486",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F4",
+          "-side": "Top",
+          "-part-id": "Fuse_1206_3216Metric-Fuse_10A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "133.731",
+            "-y": "71.5645",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F5",
+          "-side": "Top",
+          "-part-id": "Fuse_0603_1608Metric-Fuse_1A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "75.946",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F6",
+          "-side": "Top",
+          "-part-id": "Fuse_1206_3216Metric-Fuse_10A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "133.731",
+            "-y": "60.2615",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "F7",
+          "-side": "Top",
+          "-part-id": "Fuse_1206_3216Metric-Fuse_10A",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "133.731",
+            "-y": "49.2125",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "FID1",
+          "-side": "Top",
+          "-part-id": "Fiducial_1mm_Mask2mm-Fiducial",
+          "-type": "Fiducial",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "37.592",
+            "-y": "9.5758",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "FID2",
+          "-side": "Top",
+          "-part-id": "Fiducial_1mm_Mask2mm-Fiducial",
+          "-type": "Fiducial",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "138.7094",
+            "-y": "9.5845",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "FID3",
+          "-side": "Top",
+          "-part-id": "Fiducial_1mm_Mask2mm-Fiducial",
+          "-type": "Fiducial",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "63.5254",
+            "-y": "53.213",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC1",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "52.9082",
+            "-y": "51.435",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC2",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "77.218",
+            "-y": "51.6564",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC3",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "101.3838",
+            "-y": "51.437",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC4",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.6468",
+            "-y": "33.332",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC5",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "71.9709",
+            "-y": "33.528",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "IC6",
+          "-side": "Top",
+          "-part-id": "TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias-TMC5160-TA",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "96.0628",
+            "-y": "33.6296",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "J2",
+          "-side": "Top",
+          "-part-id": "PinSocket_2x20_P2.54mm_Vertical_SMD-Raspberry_pi_40pin",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "4.318",
+            "-y": "32.512",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "J26",
+          "-side": "Top",
+          "-part-id": "USB_Micro-B_Molex-105017-0001-USB_B_Micro",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "36.7792",
+            "-y": "81.407",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "L1",
+          "-side": "Top",
+          "-part-id": "L_1210_3225Metric-1u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.65",
+            "-y": "19.05",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "L2",
+          "-side": "Top",
+          "-part-id": "L_Taiyo-Yuden_NR-80xx-15u",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "130.6322",
+            "-y": "25.9334",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q1",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.538",
+            "-y": "44.196",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q2",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "113.538",
+            "-y": "51.308",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q3",
+          "-side": "Top",
+          "-part-id": "TO-252-2-IPD048N06L3G",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "131.2672",
+            "-y": "77.1144",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q4",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "118.872",
+            "-y": "67.31",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q5",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.84",
+            "-y": "44.196",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q6",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.84",
+            "-y": "51.308",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q7",
+          "-side": "Top",
+          "-part-id": "TO-252-2-IPD048N06L3G",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "131.2672",
+            "-y": "65.786",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q8",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.142",
+            "-y": "51.308",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q9",
+          "-side": "Top",
+          "-part-id": "SOT-23-2N7002",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.396",
+            "-y": "44.196",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q10",
+          "-side": "Top",
+          "-part-id": "TO-252-2-IPD048N06L3G",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "131.2672",
+            "-y": "54.61",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q11",
+          "-side": "Top",
+          "-part-id": "TO-252-2-IPD048N06L3G",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "131.318",
+            "-y": "43.434",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q12",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-Q_DUAL_PNP_PNP_E1B1C2E2B2C1",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "10.5664",
+            "-y": "8.1788",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q13",
+          "-side": "Top",
+          "-part-id": "SOT-23-Q_PMOS_GSD",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "10.5918",
+            "-y": "4.5974",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q14",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.9369",
+            "-y": "70.8406",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q15",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.3644",
+            "-y": "70.9041",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q16",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "58.2969",
+            "-y": "70.8406",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q17",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "49.6824",
+            "-y": "70.9041",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q18",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.2467",
+            "-y": "71.062",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q19",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.6722",
+            "-y": "71.1073",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q20",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "82.6067",
+            "-y": "71.062",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q21",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "73.9922",
+            "-y": "71.1255",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q22",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.4125",
+            "-y": "70.8426",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q23",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.853",
+            "-y": "70.9041",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q24",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "106.7725",
+            "-y": "70.8426",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q25",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.158",
+            "-y": "70.9061",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q26",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "49.4027",
+            "-y": "13.6978",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q27",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "57.9628",
+            "-y": "13.6271",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q28",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.0427",
+            "-y": "13.6978",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q29",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.6572",
+            "-y": "13.6343",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q30",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "74.7268",
+            "-y": "13.8938",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q31",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "83.2866",
+            "-y": "13.8303",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q32",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.3668",
+            "-y": "13.8938",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q33",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.9813",
+            "-y": "13.8303",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q34",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.8187",
+            "-y": "13.9954",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q35",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "107.3912",
+            "-y": "13.9319",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q36",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.4587",
+            "-y": "13.9954",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Q37",
+          "-side": "Top",
+          "-part-id": "Fairchild_DualPower33-6_3x3mm-FDMC8030",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.0732",
+            "-y": "13.9319",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R1",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.015",
+            "-y": "8.6995",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R2",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.9162",
+            "-y": "28.7655",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R3",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-178k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "117.5766",
+            "-y": "31.1912",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R4",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-24k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "121.1326",
+            "-y": "35.0901",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R5",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.3736",
+            "-y": "36.5125",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R6",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k87",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.3736",
+            "-y": "35.0266",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R7",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "10.6426",
+            "-y": "10.668",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R8",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "10.3886",
+            "-y": "1.9812",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R9",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.728",
+            "-y": "33.9725",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R10",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "22.0726",
+            "-y": "10.9474",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R11",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "28.6766",
+            "-y": "10.9474",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R12",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "21.336",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R13",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "10.668",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R14",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "25.3746",
+            "-y": "10.9474",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R15",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "31.9786",
+            "-y": "10.9474",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R16",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "37.338",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R17",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-68k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "31.5214",
+            "-y": "76.7588",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R18",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-3.9k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "19.177",
+            "-y": "46.2407",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R19",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-3.9k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "11.7602",
+            "-y": "47.9171",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R20",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "11.7602",
+            "-y": "46.3931",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R21",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "9.017",
+            "-y": "77.343",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R22",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "33.1216",
+            "-y": "76.7588",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R23",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "37.4396",
+            "-y": "53.9877",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R24",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "46.228",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R25",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "52.324",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R26",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "122.174",
+            "-y": "64.77",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R27",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.982",
+            "-y": "41.656",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R28",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.206",
+            "-y": "61.468",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R29",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "127.0",
+            "-y": "82.55",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R30",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "44.704",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R31",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "50.8",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R32",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "122.174",
+            "-y": "67.818",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R33",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "116.84",
+            "-y": "41.656",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R34",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "124.206",
+            "-y": "66.04",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R35",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "127.0",
+            "-y": "71.374",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R36",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "49.276",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R37",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.698",
+            "-y": "47.752",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R38",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "123.952",
+            "-y": "41.656",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R39",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "120.396",
+            "-y": "41.656",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R40",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "127.0",
+            "-y": "60.198",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R41",
+          "-side": "Top",
+          "-part-id": "R_1206_3216Metric-3k3",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "127.0",
+            "-y": "49.022",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R42",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "27.7114",
+            "-y": "56.6928",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R43",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "60.8457",
+            "-y": "46.4185",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R44",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.8724",
+            "-y": "58.293",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R45",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "48.4759",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R46",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "50.1269",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R47",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.8724",
+            "-y": "59.8805",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R48",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "56.9976",
+            "-y": "62.2935",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R49",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "51.4604",
+            "-y": "62.23",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R50",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "43.6499",
+            "-y": "62.23",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R51",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "49.4919",
+            "-y": "62.23",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R52",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "54.0893",
+            "-y": "65.8495",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R53",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "46.2153",
+            "-y": "65.8495",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R54",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.5559",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R55",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "51.9049",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R56",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "57.1246",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R57",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "55.3466",
+            "-y": "58.7375",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R58",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "85.1555",
+            "-y": "46.6399",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R59",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.1822",
+            "-y": "58.5144",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R60",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "72.7857",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R61",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "74.4367",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R62",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.1822",
+            "-y": "60.1019",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R63",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "81.3074",
+            "-y": "62.5149",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R64",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "75.7702",
+            "-y": "62.4514",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R65",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "67.9597",
+            "-y": "62.4514",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R66",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "73.8017",
+            "-y": "62.4514",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R67",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.3991",
+            "-y": "66.0709",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R68",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.7898",
+            "-y": "66.0709",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R69",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "77.8657",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R70",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "76.2147",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R71",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "81.4344",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R72",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "79.6564",
+            "-y": "58.9589",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R73",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.3213",
+            "-y": "46.4205",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R74",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.348",
+            "-y": "58.295",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R75",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "96.9515",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R76",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.6025",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R77",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.348",
+            "-y": "59.8825",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R78",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "105.4732",
+            "-y": "62.2955",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R79",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "99.936",
+            "-y": "62.232",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R80",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "92.1255",
+            "-y": "62.232",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R81",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "97.9675",
+            "-y": "62.232",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R82",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.5649",
+            "-y": "65.8515",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R83",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "94.9452",
+            "-y": "65.8622",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R84",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.0315",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R85",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "100.3805",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R86",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "105.6002",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R87",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.8222",
+            "-y": "58.7395",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R88",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "38.7093",
+            "-y": "38.3485",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R89",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.6826",
+            "-y": "26.474",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R90",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "51.0791",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R91",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "49.4281",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R92",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.6826",
+            "-y": "24.8865",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R93",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "42.5574",
+            "-y": "22.0925",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R94",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "48.0946",
+            "-y": "22.156",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R95",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "55.9051",
+            "-y": "22.156",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R96",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "50.0631",
+            "-y": "22.156",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R97",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.5927",
+            "-y": "18.6635",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R98",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "53.4667",
+            "-y": "18.6635",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R99",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "45.9991",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R100",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "47.6501",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R101",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "42.4304",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R102",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "44.2084",
+            "-y": "26.0295",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R103",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "64.0334",
+            "-y": "38.5445",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R104",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "79.0067",
+            "-y": "26.67",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R105",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "76.4032",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R106",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "74.7522",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R107",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "79.0067",
+            "-y": "25.0825",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R108",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "67.8815",
+            "-y": "22.2885",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R109",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "73.4187",
+            "-y": "22.352",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R110",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "81.2292",
+            "-y": "22.352",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R111",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "75.3872",
+            "-y": "22.352",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R112",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "70.9168",
+            "-y": "18.8595",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R113",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "78.613",
+            "-y": "18.8722",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R114",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "71.3232",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R115",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "72.9742",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R116",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "67.7545",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R117",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "69.5325",
+            "-y": "26.2255",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R118",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-2R2",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "88.1253",
+            "-y": "38.6461",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R119",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.0986",
+            "-y": "26.7716",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R120",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "100.4951",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R121",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "98.8441",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R122",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "103.0986",
+            "-y": "25.1841",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R123",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "92.3544",
+            "-y": "22.4028",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R124",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "97.5106",
+            "-y": "22.4536",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R125",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "105.3211",
+            "-y": "22.4536",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R126",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-47",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "99.4791",
+            "-y": "22.4536",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R127",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "95.3262",
+            "-y": "18.9738",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R128",
+          "-side": "Top",
+          "-part-id": "R_2512_6332Metric-0R05",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "102.8827",
+            "-y": "18.9611",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R129",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "95.4151",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R130",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "97.0661",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R131",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "92.2274",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R132",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-10",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "93.6244",
+            "-y": "26.3271",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "R133",
+          "-side": "Top",
+          "-part-id": "R_0603_1608Metric-1k",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "11.1506",
+            "-y": "52.9082",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "SW1",
+          "-side": "Top",
+          "-part-id": "SW_SPST_TL3342-SW_DIP_x01",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "30.2514",
+            "-y": "52.8828",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U1",
+          "-side": "Top",
+          "-part-id": "SOIC-8_3.9x4.9mm_P1.27mm-ST1480ACDR",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "18.8849",
+            "-y": "53.2003",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U2",
+          "-side": "Top",
+          "-part-id": "SOIC-8_3.9x4.9mm_P1.27mm-M24C32",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "13.6144",
+            "-y": "38.3413",
+            "-z": "0.0",
+            "-rotation": "90.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U6",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-TVS_ARRAY4",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "16.256",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U7",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-TVS_ARRAY4",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "29.21",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U8",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-TVS_ARRAY4",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "33.02",
+            "-y": "69.342",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U9",
+          "-side": "Top",
+          "-part-id": "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias-RT7272",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "122.4788",
+            "-y": "31.0896",
+            "-z": "0.0",
+            "-rotation": "180.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U10",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-TVS_ARRAY4",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "18.0086",
+            "-y": "10.0965",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U11",
+          "-side": "Top",
+          "-part-id": "SOT-363_SC-70-6-TVS_ARRAY4",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "11.938",
+            "-y": "55.8927",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U12",
+          "-side": "Top",
+          "-part-id": "LQFP-100_14x14mm_P0.5mm-STM32F103VBTx",
+          "-type": "Placement",
+          "-enabled": "true",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "28.0797",
+            "-y": "36.0553",
+            "-z": "0.0",
+            "-rotation": "270.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "U13",
+          "-side": "Top",
+          "-part-id": "SOT-23-5-MIC5504-3.3YM5",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "109.982",
+            "-y": "36.576",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        },
+        {
+          "-version": "1.4",
+          "-id": "Y1",
+          "-side": "Top",
+          "-part-id": "Crystal_SMD_5032-4Pin_5.0x3.2mm-8MHz",
+          "-type": "Placement",
+          "-enabled": "false",
+          "location": {
+            "-units": "Millimeters",
+            "-x": "29.1846",
+            "-y": "47.8282",
+            "-z": "0.0",
+            "-rotation": "0.0"
+          },
+          "error-handling": "Alert"
+        }
+      ]
+    }
+  }
+}

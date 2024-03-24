@@ -1,0 +1,92 @@
+<openpnp-machine>
+   <machine class="org.openpnp.machine.reference.ReferenceMachine" speed="1.0">
+      <signalers/>
+      <feeders>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" id="F6" name="Feeder - FB" enabled="false" part-id="TMC5160_BOB" retry-count="3" pick-retry-count="3" tape-type="WhitePaper" vision-enabled="true" feed-count="0">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="346.349" y="486.906" z="0.2" rotation="0.0"/>
+            <last-hole-location units="Millimeters" x="346.336" y="490.995" z="0.2" rotation="0.0"/>
+            <part-pitch value="4.0" units="Millimeters"/>
+            <tape-width value="8.0" units="Millimeters"/>
+            <pipeline>
+               <stages>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="original" enabled="true" settle-first="true" count="1"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="cleanup-original" enabled="true" kernel-size="5"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="gray" enabled="true" conversion="Bgr2Gray"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectEdgesCanny" name="find-edges" enabled="true" threshold-1="5.0" threshold-2="15.0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="predetect-1" enabled="true" kernel-size="5"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="predetect-2" enabled="false" kernel-size="7"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectFixedCirclesHough" name="results" enabled="true" dp="1.0" param-1="25.0" param-2="20.0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="recalled" enabled="true" image-stage-name="original"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="display" enabled="true" circles-stage-name="results" thickness="1">
+                     <color r="255" g="0" b="0" a="255"/>
+                  </cv-stage>
+               </stages>
+            </pipeline>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" id="FDR1582451542079" name="Tray - STM32" enabled="false" part-id="LQFP-64_10x10mm_P0.5mm-STM32F103RBT6" retry-count="3" pick-retry-count="3" tray-count-x="1" tray-count-y="11" feed-count="0">
+            <location units="Millimeters" x="278.5" y="418.4" z="0.8" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="14.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceAutoFeeder" id="FDR16d0eb4363ab068e" name="ReferenceAutoFeeder" enabled="true" part-id="C_0603_1608Metric-680p_X7R" retry-count="3" pick-retry-count="3" actuator-type="Double" actuator-value="0.0" post-pick-actuator-type="Double" post-pick-actuator-value="0.0" move-before-feed="false">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         </feeder>
+      </feeders>
+      <cameras>
+         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM1582993244538" name="BOTTOM_CAM" looking="Up" settle-method="FixedTime" settle-time-ms="2000" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" rotation="89.06806538981361" flip-x="false" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" deinterlace="false" unique-id="USB 2.0 Camera #4 (Unknown) 0x1411000005a39310" format-id="7" fps="25.0">
+            <units-per-pixel units="Millimeters" x="0.035" y="0.035" z="0.0" rotation="0.0"/>
+            <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
+            <head-offsets units="Millimeters" x="427.9597193702705" y="214.54406847618802" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+            <calibration enabled="true">
+               <camera-matrix length="9">1427.0327475154024, 0.0, 643.7966464604634, 0.0, 1435.3184771248698, 338.559618839974, 0.0, 0.0, 1.0</camera-matrix>
+               <distortion-coefficients length="5">-0.25690495381137934, -1.0176124683016694, -3.521527525908558E-4, 0.001496951919518078, 3.7124439597047223</distortion-coefficients>
+            </calibration>
+            <back-light-compensation property="BackLightCompensation" value="1"/>
+            <brightness property="Brightness" value="0"/>
+            <contrast property="Contrast" value="128"/>
+            <exposure property="Exposure" value="20" auto="true"/>
+            <focus property="Focus"/>
+            <gain property="Gain" value="0"/>
+            <gamma property="Gamma" value="100"/>
+            <hue property="Hue" value="0"/>
+            <power-line-frequency property="PowerLineFrequency" value="1"/>
+            <saturation property="Saturation" value="64"/>
+            <sharpness property="Sharpness" value="3"/>
+            <white-balance property="WhiteBalance" value="4600" auto="false"/>
+            <zoom property="Zoom"/>
+         </camera>
+      </cameras>
+      <actuators>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1577087254195" name="FW_RESTART" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1577471645367" name="FORCE_HOME" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1578843550100" name="EMERGECY_STOP" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1578843866467" name="MOTORS_OFF" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1599064002026" name="DUMMY_FEED" interlock-actuator="false" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1607180364345" name="DownCamLights" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT1607184536555" name="UpCamLights_" interlock-actuator="false" driver-id="DRV165044cae6001360" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" index="0">
+            <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <safe-z value="0.0" units="Millimeters"/>
+         </actuator>
+      </actuators>
+      
+   </machine>
+</openpnp-machine>

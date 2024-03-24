@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"U1","TMC5160_BOB","SOIC-8_3.9x4.9mm_P1.27mm",60.286900,-98.374200,270.000000,top
+"J31","Conn_02x20_Odd_Even","PinHeader_2x20_P2.54mm_Vertical_SMD",45.720000,-119.062500,0.000000,bottom
+"C1","10u","C_1206_3216Metric",159.054800,-134.874000,270.000000,top
+

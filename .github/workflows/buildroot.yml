@@ -1,0 +1,95 @@
+
+on:
+  workflow_dispatch:
+    inputs:
+      git-address:
+        description: 'git-address'
+        required: true
+        default: 'buildroot/buildroot.git'
+      branches-tags:
+        description: 'branches-tags'
+        required: true
+        default: '2022.05.1'
+      board:
+        description: 'board'
+        required: true
+        default: 'rpi4'
+      build-with:
+        description: 'build-with'
+        required: false
+        default: ''
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install packages
+      run: |
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install -y sed make binutils gcc g++ bash patch gzip bzip2 unzip perl tar cpio python rsync wget git bc device-tree-compiler mtd-utils
+    
+    - name: Checkout buildroot
+      uses: actions/checkout@v2
+      with:
+        repository: ${{github.event.inputs.git-address}}
+        ref:  ${{github.event.inputs.branches-tags}}
+        path: buildroot
+
+    - name: Checkout this project
+      uses: actions/checkout@v2
+      with:
+        path: buildroot-actions
+
+    - name: Copy over project layers
+      run: |
+        cp -rv buildroot-actions/buildroot-actions/configs buildroot
+        cp -rv buildroot-actions/buildroot-actions/board buildroot
+      #  cp -rv buildroot-actions/buildroot-actions/package buildroot
+
+    - name: Build
+      run: |
+        cd buildroot
+        make ${{github.event.inputs.board}}_dev_defconfig
+        make
+        make sdk
+
+    - name: Release
+      uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Development Build"
+        files: |
+          buildroot/output/images/*_sdk-buildroot.tar.gz
+          buildroot/output/images/sdcard.img
+
+# upload artifacts
+    # - name : Upload rootfs
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: rootfs-${{github.event.inputs.branches-tags}}-${{github.event.inputs.board}}-dev
+    #     path: buildroot/output/images/rootfs.tar.gz
+    
+    # - name : Upload rpi image
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: sdcard-${{github.event.inputs.branches-tags}}-${{github.event.inputs.board}}-dev
+    #     path: buildroot/output/images/sdcard.img
+
+    # - name : Upload SDK
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: sdk-${{github.event.inputs.branches-tags}}-${{github.event.inputs.board}}-dev
+    #     path: buildroot/output/images/*_sdk-buildroot.tar.gz
+
+    # if we're releasing...release!
+    #- name: Release
+    #  uses: softprops/action-gh-release@v1
+    #  if: startsWith(github.ref, 'refs/tags/')
+    #  with:
+    #     files: |
+    #      ${{ steps.copy.outputs.bin }}.bin
+    #      ${{ steps.copy.outputs.image }}.zip
+    #  env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

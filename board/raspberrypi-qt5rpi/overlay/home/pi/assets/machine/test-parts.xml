@@ -1,0 +1,8 @@
+<openpnp-parts>
+   <part id="TMC5160_BOB" height-units="Millimeters" height="2.2" package-id="D_SMA" speed="1.0"/>
+   <part id="D_SMA-SMAJ12A" height-units="Millimeters" height="2.2" package-id="D_SMA" speed="1.0"/>
+   <part id="Fuse_1206_3216Metric-PTC_0.5A" height-units="Millimeters" height="0.0" package-id="Fuse_1206_3216Metric" speed="1.0"/>
+   <part id="R_0603_1608Metric-742792662" height-units="Millimeters" height="0.8" package-id="R_0603_1608Metric" speed="1.0"/>
+   <part id="Fiducial_1mm_Mask2mm-Fiducial" height-units="Millimeters" height="0.0" package-id="Fiducial_1mm_Mask2mm" speed="1.0"/> 
+   <part id="LQFP-64_10x10mm_P0.5mm-STM32F103RBT6" height-units="Millimeters" height="2.0" package-id="LQFP-64_10x10mm_P0.5mm-STM32F103RBT6" speed="1.0"/>
+</openpnp-parts>

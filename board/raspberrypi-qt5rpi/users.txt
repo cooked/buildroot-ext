@@ -1,0 +1,2 @@
+pi -1 wheel -1 =raspberry /home/pi /bin/sh - Default Raspberry Pi user
+
