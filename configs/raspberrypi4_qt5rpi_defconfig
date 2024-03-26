@@ -8,8 +8,8 @@ BR2_TOOLCHAIN_BUILDROOT_CXX=y
 #BR2_TARGET_GENERIC_ROOT_PASSWD="toor"
 BR2_SYSTEM_DHCP="eth0"
 
-BR2_ROOTFS_USERS_TABLES="$(BR2_EXTERNAL)/board/raspberrypi-qt5rpi/users.txt"
-BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL)/board/raspberrypi-qt5rpi/overlay"
+BR2_ROOTFS_USERS_TABLES="$(BR2_EXTERNAL)/board/raspberrypi-qt5rpi/users.config"
+BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL)/board/raspberrypi-qt5rpi/rootfs"
 
 BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL=y
