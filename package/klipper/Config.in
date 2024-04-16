@@ -1,0 +1,17 @@
+config BR2_PACKAGE_KLIPPER
+	bool "klipper"
+	
+	select BR2_PACKAGE_LIBFFI
+	select BR2_PACKAGE_LIBUSB
+	select BR2_PACKAGE_LIBUSB_DEV
+	select BR2_PACKAGE_PYTHON3
+	select BR2_PACKAGE_PYTHON_PIP
+	select BR2_PACKAGE_STM32FLASH
+	select BR2_PACKAGE_BINUTILS
+	select BR2_PACKAGE_BINUTILS_TARGET
+	select BR2_PACKAGE_PKGCONF
+
+	help
+	  Klipper 3D printer firmware
+
+	  https://github.com/Klipper3d/klipper
