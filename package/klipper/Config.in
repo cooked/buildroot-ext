@@ -17,9 +17,19 @@ config BR2_PACKAGE_KLIPPER
 	select BR2_PACKAGE_BINUTILS_TARGET
 	select BR2_PACKAGE_PKGCONF
 
-	select BR2_PACKAGE_HOST_GCC_ARM_NONE_EABI_SUPPORTS
-
 	help
 	  Klipper 3D printer firmware
 
 	  https://github.com/Klipper3d/klipper
+
+
+if BR2_PACKAGE_KLIPPER
+
+config BR2_PACKAGE_KLIPPER_CONFIG
+	string "Klipper configuration file to use?"
+	default "$(BR2_EXTERNAL)/package/klipper/klipper.config"
+	help
+	  Select the klipper config file matching your 3D printing 
+	  hardware: uC, port, etc.
+
+endif

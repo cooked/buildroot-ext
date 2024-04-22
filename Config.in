@@ -1,2 +1,1 @@
-source "$BR2_EXTERNAL_EXT_PATH/package/gcc-arm-none-eabi/Config.in.host"
 source "$BR2_EXTERNAL_EXT_PATH/package/klipper/Config.in"
