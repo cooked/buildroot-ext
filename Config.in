@@ -1,1 +1,1 @@
-source "$BR2_EXTERNAL_EXT_PATH/package/klipper/Config.in"
+source "$BR2_EXTERNAL_EXT_PATH/package/klipper3d/Config.in"

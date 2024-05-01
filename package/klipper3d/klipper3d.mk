@@ -5,8 +5,7 @@
 ################################################################################
 
 KLIPPER3D_VERSION = v0.12.0
-KLIPPER3D_SITE = https://github.com/Klipper3d/klipper.git
-KLIPPER3D_SITE_METHOD = git
+KLIPPER3D_SITE = $(call github,Klipper3d,klipper,$(KLIPPER3D_VERSION))
 KLIPPER3D_DEPENDENCIES = host-python-cffi
 
 KLIPPER3D_PYTHON_DIR = $(TARGET_DIR)/opt/klippy-env

@@ -18,7 +18,7 @@ config BR2_PACKAGE_KLIPPER3D
 	select BR2_PACKAGE_PKGCONF
 
 	help
-	  KKlipper is a 3d-Printer firmware. It combines the power of a 
+	  Klipper is a 3d-Printer firmware. It combines the power of a 
 	  general purpose computer with one or more micro-controllers.
 
 	  https://github.com/Klipper3d/klipper
@@ -38,7 +38,7 @@ menu "Klipper host (klippy.py)"
 	endchoice
 endmenu
 
-menu "Klipper target (uC firmware)"
+menu "Klipper target (MCU firmware)"
 	depends on BR2_PACKAGE_KLIPPER3D
 endmenu
 
