@@ -1,1 +1,2 @@
 source "$BR2_EXTERNAL_EXT_PATH/package/klipper3d/Config.in"
+source "$BR2_EXTERNAL_EXT_PATH/package/klipper3d-wrecklab/Config.in"

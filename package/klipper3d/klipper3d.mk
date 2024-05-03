@@ -4,6 +4,8 @@
 #
 ################################################################################
 
+# TODO: add config to create default user if does not exists
+
 KLIPPER3D_VERSION = v0.12.0
 KLIPPER3D_SITE = $(call github,Klipper3d,klipper,$(KLIPPER3D_VERSION))
 KLIPPER3D_DEPENDENCIES = host-python-cffi
@@ -50,21 +52,16 @@ endef
 #$(@D)/config
 define KLIPPER3D_INSTALL_TARGET_CMDS
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/klipper
-	cp -rf $(@D)/klippy $(@D)/scripts $(TARGET_DIR)/opt/klipper
-
+	cp -rf $(@D)/klippy $(@D)/scripts $(@D)/config $(TARGET_DIR)/opt/klipper
+	cp $(@D)/.config  $(TARGET_DIR)/opt/klipper
+	
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/klipper/out
-	cp $(@D)/out/klipper.bin $(@D)/out/klipper.dict $(@D)/out/compile_time_request.txt \
+	cp $(@D)/out/klipper.bin $(@D)/out/klipper.elf $(@D)/out/klipper.dict $(@D)/out/compile_time_request.txt \
 		$(TARGET_DIR)/opt/klipper/out
 	
 	mkdir -p -m 0755 $(TARGET_DIR)/etc/default
 	cp $(KLIPPER3D_PKGDIR)/etc/default/klipper $(TARGET_DIR)/etc/default
-	cp $(KLIPPER3D_PKGDIR)/opt/klipper/scripts/reset_phat2.sh $(TARGET_DIR)/opt/klipper/scripts
-
-	$(if ($(BR2_PACKAGE_KLIPPER3D_PRNT_XYZ),y), \
-		cp $(KLIPPER3D_PKGDIR)/opt/klipper/config/printer_xyz.cfg  $(TARGET_DIR)/opt/klipper/printer.cfg, \
-		wget -O $(TARGET_DIR)/opt/klipper/printer.cfg https://raw.githubusercontent.com/wreck-lab/wrecklabOS/devel/src/modules/klipper/filesystem/home/pi/klipper_config/config/generic-wrecklab-printhat-v2-cartesian.cfg \
-		)
-
+	
 endef
 
 # Custom SYSV init script

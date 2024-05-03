@@ -1,0 +1,27 @@
+config BR2_PACKAGE_KLIPPER3D_WRECKLAB
+	bool "klipper3d-wrecklab"
+	
+	select BR2_PACKAGE_KLIPPER3D
+
+	help
+	  WrecklabOS is a Klipper3d addon that provide supports for  
+	  Wrecklab's printHAT control boards.
+
+	  https://github.com/wreck-lab/wrecklabOS
+
+
+if BR2_PACKAGE_KLIPPER3D_WRECKLAB
+
+menu "Control Boards"
+	depends on BR2_PACKAGE_KLIPPER3D_WRECKLAB
+
+	choice
+    	prompt "printHAT"
+		config BR2_PACKAGE_KLIPPER3D_WRECKLAB_PHAT1
+			tristate "printHAT 1.0"
+		config BR2_PACKAGE_KLIPPER3D_WRECKLAB_PHAT2
+			tristate "printHAT 2.0"
+	endchoice
+endmenu
+
+endif
