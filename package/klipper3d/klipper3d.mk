@@ -71,7 +71,7 @@ define KLIPPER3D_INSTALL_INIT_SYSV
 endef
 
 define KLIPPER3D_INSTALL_INIT_SYSTEMD
-	$(INSTALL) -D -m 0644 $(KLIPPER3D_PKGDIR)/klipper.service \
+	$(INSTALL) -D -m 0644 $(KLIPPER3D_PKGDIR)/etc/systemd/system/klipper.service \
 		$(TARGET_DIR)/usr/lib/systemd/system/klipper.service
 endef
 

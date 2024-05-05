@@ -13,7 +13,9 @@ KLIPPER3D_MOONRAKER_DEPENDENCIES = klipper3d
 # TODO: moonraker is based on systemd service, to start with
 
 define KLIPPER3D_MOONRAKER_INSTALL_TARGET_CMDS
-
+	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker
+	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker/logs
+	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker/config
 endef
 
 $(eval $(generic-package))
