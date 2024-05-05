@@ -70,6 +70,11 @@ define KLIPPER3D_INSTALL_INIT_SYSV
 	$(INSTALL) -m 0755 -D $(KLIPPER3D_PKGDIR)/etc/init.d/S90klipper $(TARGET_DIR)/etc/init.d
 endef
 
+define KLIPPER3D_INSTALL_INIT_SYSTEMD
+	$(INSTALL) -D -m 0644 $(KLIPPER3D_PKGDIR)/klipper.service \
+		$(TARGET_DIR)/usr/lib/systemd/system/klipper.service
+endef
+
 define KLIPPER3D_USERS
 	klippy -1 klippy -1 * - - - Klipper daemon
 endef

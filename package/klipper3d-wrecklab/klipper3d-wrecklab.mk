@@ -22,4 +22,10 @@ define KLIPPER3D_WRECKLAB_INSTALL_TARGET_CMDS
 
 endef
 
+define KLIPPER3D_WRECKLAB_INSTALL_IMAGES_CMDS
+
+	cp $(@D)/src/modules/wrecklab/filesystem/boot/firstrun  $(BINARIES_DIR)/klipper3d-wrecklab
+
+endef
+
 $(eval $(generic-package))

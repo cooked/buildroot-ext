@@ -1,0 +1,14 @@
+config BR2_PACKAGE_KLIPPER3D_MAINSAIL
+	bool "klipper3d-mainsail"
+	
+	select BR2_PACKAGE_NGINX
+
+	help
+	  Mainsail is a modern and responsive user interface for Klipper.
+
+	  https://github.com/mainsail-crew/mainsail
+
+
+if BR2_PACKAGE_KLIPPER3D_MAINSAIL
+
+endif
