@@ -50,6 +50,8 @@ endef
 
 # TODO move printer.cfg download to <pkg>_EXTRA_DOWNLOADS
 #$(@D)/config
+#wget -O $(TARGET_DIR)/opt/klipper/printer.cfg https://raw.githubusercontent.com/wreck-lab/wrecklabOS/devel/src/modules/klipper/filesystem/home/pi/klipper_config/config/generic-wrecklab-printhat-v2-cartesian.cfg
+
 define KLIPPER3D_INSTALL_TARGET_CMDS
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/klipper
 	cp -rf $(@D)/klippy $(@D)/scripts $(@D)/config $(TARGET_DIR)/opt/klipper
@@ -62,6 +64,8 @@ define KLIPPER3D_INSTALL_TARGET_CMDS
 	mkdir -p -m 0755 $(TARGET_DIR)/etc/default
 	cp $(KLIPPER3D_PKGDIR)/etc/default/klipper $(TARGET_DIR)/etc/default
 	
+	cp $(KLIPPER3D_PKGDIR)/config/printer_xyz.cfg  $(TARGET_DIR)/opt/klipper/printer.cfg
+
 endef
 
 # Custom SYSV init script

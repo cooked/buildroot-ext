@@ -15,7 +15,18 @@ KLIPPER3D_MOONRAKER_DEPENDENCIES = klipper3d
 define KLIPPER3D_MOONRAKER_INSTALL_TARGET_CMDS
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker/logs
-	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker/config
+	$(INSTALL) -D -m 0644 $(KLIPPER3D_MOONRAKER_PKGDIR)/opt/moonraker/moonraker.conf \
+		$(TARGET_DIR)/opt/moonraker/moonraker.conf
+endef
+
+# $(INSTALL) -m 0755 -D $(KLIPPER3D_MOONRAKER_PKGDIR)/etc/init.d/S91moonraker $(TARGET_DIR)/etc/init.d
+define KLIPPER3D_MOONRAKER_INSTALL_INIT_SYSV
+	
+endef
+
+define KLIPPER3D_MOONRAKER_INSTALL_INIT_SYSTEMD
+	$(INSTALL) -D -m 0644 $(KLIPPER3D_MOONRAKER_PKGDIR)/etc/systemd/system/moonraker.service \
+		$(TARGET_DIR)/usr/lib/systemd/system/moonraker.service
 endef
 
 $(eval $(generic-package))
