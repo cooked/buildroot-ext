@@ -29,21 +29,11 @@ KLIPPER3D_MAKE_OPTS = CROSS_PREFIX=$(HOST_DIR)/bin/arm-none-eabi-
 KLIPPER3D_KLIPPY_MAKE_OPTS = DIR=$(@D)/klippy/chelper CC=$(TARGET_CC)
 
 define KLIPPER3D_BUILD_CMDS
+	cp $(KLIPPER3D_PKGDIR)/klipper_f401.config $(@D)/.config
 	$(BR2_MAKE) $(KLIPPER3D_MAKE_OPTS) -C $(@D)
 	$(BR2_MAKE) $(KLIPPER3D_KLIPPY_MAKE_OPTS) -C $(KLIPPER3D_PKGDIR)/klippy $(@D)/klippy/chelper/c_helper.so
 endef
 
-# copy klippy over
-# Create virtualenv if it doesn't already exist
-# Install/update dependencies
-
-#cffi==1.14.6
-#pyserial==3.4
-#greenlet==2.0.2 ; python_version < '3.12'
-#greenlet==3.0.3 ; python_version >= '3.12'
-#Jinja2==2.11.3
-#python-can==3.3.4
-#markupsafe==1.1.1
 
 # [ ! -d ${KLIPPER_PYTHON_DIR} ] && virtualenv -p python3 ${KLIPPER_PYTHON_DIR}
 # ${KLIPPER_PYTHON_DIR}/bin/pip install -r ${@D}/scripts/klippy-requirements.txt
@@ -61,9 +51,6 @@ define KLIPPER3D_INSTALL_TARGET_CMDS
 	cp $(@D)/out/klipper.bin $(@D)/out/klipper.elf $(@D)/out/klipper.dict $(@D)/out/compile_time_request.txt \
 		$(TARGET_DIR)/opt/klipper/out
 	
-	mkdir -p -m 0755 $(TARGET_DIR)/etc/default
-	cp $(KLIPPER3D_PKGDIR)/etc/default/klipper $(TARGET_DIR)/etc/default
-	
 	cp $(KLIPPER3D_PKGDIR)/config/printer_xyz.cfg  $(TARGET_DIR)/opt/klipper/printer.cfg
 
 endef
@@ -71,6 +58,9 @@ endef
 # Custom SYSV init script
 # see https://github.com/buildroot/buildroot/blob/master/package/restorecond/S02restorecond
 define KLIPPER3D_INSTALL_INIT_SYSV
+	mkdir -p -m 0755 $(TARGET_DIR)/etc/default
+	cp $(KLIPPER3D_PKGDIR)/etc/default/klipper $(TARGET_DIR)/etc/default
+
 	$(INSTALL) -m 0755 -D $(KLIPPER3D_PKGDIR)/etc/init.d/S90klipper $(TARGET_DIR)/etc/init.d
 endef
 

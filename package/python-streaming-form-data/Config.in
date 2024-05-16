@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_STREAMING_FORM_DATA
+	bool "python-streaming-form-data"
+	help
+	  Streaming_form_data provides a Python parser for parsing 
+	  multipart/form-data input chunks (the encoding used when 
+	  submitting data over HTTP through HTML forms)
+
+	  https://github.com/siddhantgoel/streaming-form-data

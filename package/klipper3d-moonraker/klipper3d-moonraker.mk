@@ -6,7 +6,8 @@
 
 KLIPPER3D_MOONRAKER_VERSION = master
 KLIPPER3D_MOONRAKER_SITE = $(call github,Arksine,moonraker,$(KLIPPER3D_MOONRAKER_VERSION))
-KLIPPER3D_MOONRAKER_DEPENDENCIES = klipper3d
+KLIPPER3D_MOONRAKER_DEPENDENCIES = klipper3d python-streaming-form-data
+KLIPPER3D_MOONRAKER_SETUP_TYPE = pep517
 
 # TODO: install the important FS to /opt and not to /home
 
@@ -14,7 +15,7 @@ KLIPPER3D_MOONRAKER_DEPENDENCIES = klipper3d
 
 define KLIPPER3D_MOONRAKER_INSTALL_TARGET_CMDS
 	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker
-	mkdir -p -m 0755 $(TARGET_DIR)/opt/moonraker/logs
+	cp -rf $(@D)/moonraker $(TARGET_DIR)/opt/moonraker
 	$(INSTALL) -D -m 0644 $(KLIPPER3D_MOONRAKER_PKGDIR)/opt/moonraker/moonraker.conf \
 		$(TARGET_DIR)/opt/moonraker/moonraker.conf
 endef

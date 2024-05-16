@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PYTHON_SMART_OPEN
+	bool "python-smart-open"
+	help
+	  Smart open
+
